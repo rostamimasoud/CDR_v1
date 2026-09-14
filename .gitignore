@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+
+# Generated outputs
+results/
+figures/
+manuscript/
+
+# Notes and working documents are not part of the code record
+*.md
+!README.md
+
+# Local editor and tooling directories
+.*cache/
+.vscode/
+.idea/
+.DS_Store
